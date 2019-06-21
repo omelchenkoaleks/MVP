@@ -35,25 +35,25 @@
 
     <string name="fields_empty">Заполните поля!</string>
 
-    <string name="register_success">Регистрация успешна!</string>
-    <string name="register_error">Ошибка регистрации!</string>
+    <string name="register_success">Registration success!</string>
+    <string name="register_error">Registration error!</string>
 
-    <string name="update_success">Обновление успешно!</string>
-    <string name="update_error">Ошибка обновления!</string>
+    <string name="update_success">Update success!</string>
+    <string name="update_error">Update error!</string>
 
-    <string name="greeting">Добро пожаловать!</string>
+    <string name="greeting">Welcome!</string>
 
 
-    <string name="first_name">Имя: </string>
-    <string name="last_name">Фамилия: </string>
-    <string name="phone">Телефон: </string>
+    <string name="first_name">First Name: </string>
+    <string name="last_name">Last Name: </string>
+    <string name="phone">Phone: </string>
     <string name="email">Email: </string>
-    <string name="password">Пароль: </string>
+    <string name="password">Password: </string>
 
-    <string name="update_btn">Обновить</string>
-    <string name="delete_btn">Удалить аккаунт</string>
-    <string name="logout_btn">Выйти</string>
+    <string name="update_btn">Update</string>
+    <string name="delete_btn">Delete</string>
+    <string name="logout_btn">Logout</string>
 
-    <string name="delete_success">Аккаунт удален</string>
-    <string name="delete_error">Ошибка удаления!</string>
+    <string name="delete_success">Account deleted</string>
+    <string name="delete_error">Error deleting</string>
 </resources>

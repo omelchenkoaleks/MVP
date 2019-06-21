@@ -19,9 +19,26 @@
         <item name="android:background">@drawable/box_button</item>
     </style>
     
-    <style name="Registration_Button_Text_View">
+    <style name="RegistrationButtonTextView">
         <item name="android:textColor">@color/text_light</item>
         <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="BaseTextView">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="MemberTextView">
+        <item name="android:textColor">@color/text_dark</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginBottom">10dp</item>
+    </style>
+
+    <style name="MemberEditText">
+        <item name="android:textColor">@color/text_dark</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:background">@drawable/box_edit_text</item>
     </style>
 
 </resources>

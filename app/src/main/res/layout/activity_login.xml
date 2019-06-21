@@ -49,7 +49,7 @@
 
     <TextView
         android:id="@+id/register_button_text_view"
-        style="@style/Registration_Button_Text_View"
+        style="@style/RegistrationButtonTextView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"

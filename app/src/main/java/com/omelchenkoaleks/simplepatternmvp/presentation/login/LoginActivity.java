@@ -9,7 +9,7 @@ import android.widget.TextView;
 
 import com.omelchenkoaleks.simplepatternmvp.R;
 import com.omelchenkoaleks.simplepatternmvp.base.BaseActivity;
-import com.omelchenkoaleks.simplepatternmvp.presentation.MemberActivity;
+import com.omelchenkoaleks.simplepatternmvp.presentation.member.MemberActivity;
 import com.omelchenkoaleks.simplepatternmvp.presentation.register.RegisterActivity;
 import com.omelchenkoaleks.simplepatternmvp.utils.NavigationUtil;
 

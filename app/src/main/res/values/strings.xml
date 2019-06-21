@@ -16,7 +16,7 @@
 
     <string name="login_btn">Войти</string>
     <string name="reg_btn">Зарегистрироваться</string>
-    <string name="submit_btn">Сохранить</string>
+    <string name="submit_btn">To Save?</string>
 
     <string name="user_pass_err">Введите Логин и Пароль</string>
     <string name="user_err">Введите Логин</string>
@@ -27,11 +27,11 @@
 
     <string name="login_success">Успешно!</string>
 
-    <string name="first_name_reg">Имя</string>
-    <string name="last_name_reg">Фамилия</string>
+    <string name="first_name_reg">First Name</string>
+    <string name="last_name_reg">Last Name</string>
     <string name="email_reg">Email</string>
-    <string name="pass_reg">Пароль</string>
-    <string name="phone_reg">Телефон</string>
+    <string name="pass_reg">Password</string>
+    <string name="phone_reg">Phone</string>
 
     <string name="fields_empty">Заполните поля!</string>
 

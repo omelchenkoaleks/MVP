@@ -1,4 +1,4 @@
-package com.omelchenkoaleks.simplepatternmvp.presentation;
+package com.omelchenkoaleks.simplepatternmvp.presentation.register;
 
 import android.os.Bundle;
 

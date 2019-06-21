@@ -8,4 +8,20 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="BoxEditText">
+        <item name="android:padding">16dp</item>
+        <item name="android:background">@drawable/box_edit_text</item>
+    </style>
+
+    <style name="BoxButton">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/text_title</item>
+        <item name="android:background">@drawable/box_button</item>
+    </style>
+    
+    <style name="Registration_Button_Text_View">
+        <item name="android:textColor">@color/text_light</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
 </resources>

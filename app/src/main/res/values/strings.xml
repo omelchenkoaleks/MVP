@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Simple Pattern MVP</string>
+    <string name="registration_button_text_view">Registration</string>
+    <string name="email_input_edit_text">Email</string>
+    <string name="password_input_edit_text">Password</string>
+    <string name="login_button">Login</string>
 </resources>

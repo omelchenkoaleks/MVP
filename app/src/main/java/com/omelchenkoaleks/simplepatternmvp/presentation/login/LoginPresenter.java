@@ -3,12 +3,14 @@ package com.omelchenkoaleks.simplepatternmvp.presentation.login;
 import android.content.Context;
 import android.widget.EditText;
 
+import com.omelchenkoaleks.simplepatternmvp.R;
+import com.omelchenkoaleks.simplepatternmvp.data.db.DbHandler;
+
 public class LoginPresenter implements LoginContract.Presenter {
     private LoginContract.View mView;
     private Context mContext;
 
-    // TODO: позже дописать ... добавить в конструктор не забыть...
-//    private DbHandler mDbHandler;
+    private DbHandler mDbHandler;
 
     private String mEmail;
     private String mPassword;
@@ -17,7 +19,7 @@ public class LoginPresenter implements LoginContract.Presenter {
         mView = view;
         mView.setPresenter(this);
         mContext = context;
-        // mDbHandler = new DbHandler(mContext);
+        mDbHandler = new DbHandler(mContext);
     }
 
     // проверим на пустоту ...
@@ -36,6 +38,16 @@ public class LoginPresenter implements LoginContract.Presenter {
     private void validated(EditText[] fields) {
         mEmail = fields[0].getText().toString().trim();
         mPassword = fields[1].getText().toString().trim();
+        checkCredentials(mEmail, mPassword);
+    }
+
+    private void checkCredentials(String email, String password) {
+        if (mDbHandler.checkUserCredentials(email, password)) {
+            mView.showSuccessfulMessage(mContext.getString(R.string.email_pass_valid_success));
+            mView.navigateTo(email);
+        } else {
+            mView.showFailedMessage(mContext.getString(R.string.email_pass_valid_err));
+        }
     }
 
     @Override

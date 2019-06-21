@@ -1,7 +1,59 @@
 <resources>
     <string name="app_name">Simple Pattern MVP</string>
+
     <string name="registration_button_text_view">Registration</string>
     <string name="email_input_edit_text">Email</string>
     <string name="password_input_edit_text">Password</string>
+
+    <string name="email_pass_valid_err">Invalid Email or Password</string>
+    <string name="email_pass_valid_success">Success!</string>
+
     <string name="login_button">Login</string>
+
+
+    <string name="email_hint">Email&#8230;</string>
+    <string name="pass_hint">Пароль&#8230;</string>
+
+    <string name="login_btn">Войти</string>
+    <string name="reg_btn">Зарегистрироваться</string>
+    <string name="submit_btn">Сохранить</string>
+
+    <string name="user_pass_err">Введите Логин и Пароль</string>
+    <string name="user_err">Введите Логин</string>
+    <string name="pass_err">Введите Пароль</string>
+    <string name="user_pass_incorrect">Логин и Пароль неверны</string>
+    <string name="user_incorrect">Логин неверный</string>
+    <string name="pass_incorrect">Пароль неверный</string>
+
+    <string name="login_success">Успешно!</string>
+
+    <string name="first_name_reg">Имя</string>
+    <string name="last_name_reg">Фамилия</string>
+    <string name="email_reg">Email</string>
+    <string name="pass_reg">Пароль</string>
+    <string name="phone_reg">Телефон</string>
+
+    <string name="fields_empty">Заполните поля!</string>
+
+    <string name="register_success">Регистрация успешна!</string>
+    <string name="register_error">Ошибка регистрации!</string>
+
+    <string name="update_success">Обновление успешно!</string>
+    <string name="update_error">Ошибка обновления!</string>
+
+    <string name="greeting">Добро пожаловать!</string>
+
+
+    <string name="first_name">Имя: </string>
+    <string name="last_name">Фамилия: </string>
+    <string name="phone">Телефон: </string>
+    <string name="email">Email: </string>
+    <string name="password">Пароль: </string>
+
+    <string name="update_btn">Обновить</string>
+    <string name="delete_btn">Удалить аккаунт</string>
+    <string name="logout_btn">Выйти</string>
+
+    <string name="delete_success">Аккаунт удален</string>
+    <string name="delete_error">Ошибка удаления!</string>
 </resources>

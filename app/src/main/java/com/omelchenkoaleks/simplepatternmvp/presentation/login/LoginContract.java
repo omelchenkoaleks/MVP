@@ -1,4 +1,4 @@
-package com.omelchenkoaleks.simplepatternmvp.presentation;
+package com.omelchenkoaleks.simplepatternmvp.presentation.login;
 
 import android.widget.EditText;
 

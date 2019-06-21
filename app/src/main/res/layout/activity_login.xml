@@ -4,54 +4,56 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/background_main"
-    android:orientation="vertical"
     android:gravity="center"
-    tools:context=".presentation.LoginActivity">
+    android:orientation="vertical"
+    tools:context=".presentation.login.LoginActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:layout_margin="@dimen/login_margins">
+        android:layout_margin="@dimen/login_margins"
+        android:orientation="vertical">
 
         <EditText
             android:id="@+id/email_input_edit_text"
+            style="@style/BoxEditText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/bottom_margins"
             android:drawableStart="@drawable/ic_person"
             android:drawablePadding="10dp"
             android:hint="@string/email_input_edit_text"
-            style="@style/BoxEditText"
-            android:inputType="textEmailAddress"
-            android:layout_marginBottom="@dimen/bottom_margins"/>
+            android:inputType="textEmailAddress" />
 
         <EditText
             android:id="@+id/password_input_edit_text"
+            style="@style/BoxEditText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/bottom_margins"
             android:drawableStart="@drawable/ic_key"
             android:drawablePadding="10dp"
             android:hint="@string/password_input_edit_text"
-            style="@style/BoxEditText"
-            android:inputType="textPassword"
-            android:layout_marginBottom="@dimen/bottom_margins"/>
+            android:inputType="textPassword" />
 
         <Button
             android:id="@+id/login_button"
+            style="@style/BoxButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            style="@style/BoxButton"
-            android:text="@string/login_button"
-            android:layout_marginBottom="@dimen/bottom_margins"/>
+            android:layout_marginBottom="@dimen/bottom_margins"
+            android:onClick="buttonClicked"
+            android:text="@string/login_button" />
 
     </LinearLayout>
 
     <TextView
         android:id="@+id/register_button_text_view"
+        style="@style/Registration_Button_Text_View"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        style="@style/Registration_Button_Text_View"
-        android:text="@string/registration_button_text_view"
-        android:gravity="center"/>
+        android:gravity="center"
+        android:onClick="buttonClicked"
+        android:text="@string/registration_button_text_view" />
 
 </LinearLayout>
